@@ -94,12 +94,12 @@ int main (int argc, char** argv)
       /* Free allocated memory */
       free(temp);
       
-    } else /* Has enough allocated memory */ {
-      /* Set val to position inUse+1 for numArray */
-      numArray[inUse] = val;
-      /* Increase value of inUse by one */
-      inUse++;
-    }
+    } 
+    /* Has enough allocated memory */ 
+    /* Set val to position inUse+1 for numArray */
+    numArray[inUse] = val;
+    /* Increase value of inUse by one */
+    inUse++;
     /* get next value */
     scanf("%d", &val);
   }
